@@ -19,6 +19,7 @@ public class Journal
     {
    string newPrompt = prompt.RandomPrompt();
    newEntry._prompt = newPrompt;
+   Console.WriteLine("");
    Console.Write($"{newPrompt}\nWould you like a new prompt?\n \n(if yes type 'y' for a new prompt)\n>");
    userInput = Console.ReadLine();
    }

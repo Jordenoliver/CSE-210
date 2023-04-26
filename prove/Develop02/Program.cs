@@ -9,12 +9,15 @@ class Program
 
     do
     {
+        Console.WriteLine("");
         Console.WriteLine("Please Select One Of The Following options:");
+        Console.WriteLine("");
         Console.WriteLine("1. Write");
         Console.WriteLine("2. Display");
         Console.WriteLine("3. Load");
         Console.WriteLine("4. Save");
         Console.WriteLine("5. Quit");
+        Console.WriteLine("");
         Console.Write("Which option would you like to do? ");
         Choice = Console.ReadLine();
         int userChoice = int.Parse(Choice);
@@ -42,13 +45,15 @@ class Program
             break;
 
             default:
-            Console.WriteLine("That is not a losted option. Please try again.");
+            Console.WriteLine("That is not a listed option. Please try again.");
             break;
         }
         } 
         while (Choice != "5");
         {
+            Console.WriteLine("");
             Console.WriteLine("Thank you for your time, Have a great day");
+            Console.WriteLine("");
         }
     }
     }
