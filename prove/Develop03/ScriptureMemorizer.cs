@@ -1,6 +1,5 @@
 using System;
 
-//Public class to can use in "other window"
 public class ScriptureMemorizer
     {
         private Scripture Scripture;

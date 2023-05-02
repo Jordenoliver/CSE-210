@@ -1,6 +1,5 @@
 using System;
 
-//Public class to can use in "other window"
 public class Reference
 {
     private string book, chapter, verse;
