@@ -20,7 +20,7 @@ class Program
         {
             Menu menu = new Menu();
             allGoals.DisplayPoints(allGoals.getTotalPoints());
-            allGoals.DisplayLevel(allGoals.getLevel());
+            allGoals.DisplayLevel(allGoals.GetLevel());
             Console.WriteLine();
             menu.DisplayMainMenu();
             menuSelection = menu.DisplayGetMainMenu();

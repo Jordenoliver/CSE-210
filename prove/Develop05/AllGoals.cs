@@ -26,7 +26,7 @@ class AllGoals
     {
         return totalPoints;
     }
-    public string getLevel()
+    public int getLevel()
     {
         int level = totalPoints / 1000;
         if (level >= 1)
@@ -38,6 +38,15 @@ class AllGoals
             level = "Beginner";
         }
         return level;
+    }
+      public static int GetLevel(int points)
+    {
+        for (int level = 0; level <= 100;)
+        {
+            return level;
+        }
+
+        return 100;
     }
 
     public void DisplayPoints(int totalPoints)
